@@ -37,15 +37,15 @@ function App() {
           setSec(0);
           clearInterval(interval);
         }
-        if (minsec > 999) {
+        if (minsec > 99) {
           setSec(sec + 1);
           setMinSec(0);
           clearInterval(interval);
         }
-        if (minsec <= 999) {
+        if (minsec <= 99) {
           setMinSec(minsec + 1);
         }
-      }, );
+      }, 1);
     } else {
       clearInterval(interval);
     }

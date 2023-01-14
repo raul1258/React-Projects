@@ -1,15 +1,14 @@
 let changeColor = document.querySelector('#change')
-let hide = document.querySelector("#hiddden");
+let hide = document.querySelector('#demo');
 
-changeColor.onclick = () => {
-    document.body.style.background = 'red';
+// changeColor.addEventListener('click',  () => changeColor.style.backgroundColor = 'red') 
+
+// hide.addEventListener('dblclick',  () => hide.style.visibility = 'hidden') 
+
+function colorChange(){
+    changeColor.style.backgroundColor = 'grey';
 }
 
- hide.onclick = () => {
-    console.log('hidden')
- }
-
-// function color() {
-// changeColor('red');
-// }
-
+function hideBtn (){
+    hide.style.visibility = 'hidden';
+}

@@ -12,3 +12,13 @@ function colorChange(){
 function hideBtn (){
     hide.style.visibility = 'hidden';
 }
+
+let obj = {id:'123', name:'candidate',age:'22',work:'SDE'};
+const retrieveProperties = (obj = {}) => {
+    const res = [];
+    for(key in obj){
+       res.push([ key ]);
+    };
+    return res;
+ };
+ console.log(retrieveProperties(obj));

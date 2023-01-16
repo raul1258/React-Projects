@@ -22,3 +22,6 @@ const retrieveProperties = (obj = {}) => {
     return res;
  };
  console.log(retrieveProperties(obj));
+
+
+ 

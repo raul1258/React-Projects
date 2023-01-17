@@ -13,7 +13,7 @@ function hideBtn (){
     hide.style.visibility = 'hidden';
 }
 
-let obj = {id:'123', name:'candidate',age:'22',work:'SDE'};
+let obj = {1:'a',2:'b',3:'c'};
 const retrieveProperties = (obj = {}) => {
     const res = [];
     for(key in obj){

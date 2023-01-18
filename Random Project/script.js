@@ -6,7 +6,7 @@ let hide = document.querySelector('#demo');
 // hide.addEventListener('dblclick',  () => hide.style.visibility = 'hidden') 
 
 function colorChange(){
-    changeColor.style.backgroundColor = 'grey';
+    changeColor.style.backgroundColor = 'green';
 }
 
 function hideBtn (){

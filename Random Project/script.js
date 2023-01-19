@@ -23,5 +23,8 @@ const retrieveProperties = (obj = {}) => {
  };
  console.log(retrieveProperties(obj));
 
+ //
+ 
+
 
  

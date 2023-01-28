@@ -31,5 +31,5 @@ const retrieveProperties = (obj = {}) => {
  
  
 
-
+console.log(rahul);
  

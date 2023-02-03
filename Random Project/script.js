@@ -29,7 +29,20 @@ let obj = {id:"123",name:"candidate",age:"22",work:"sde"};
  let keys = Object.values(obj);
  console.log(keys);
  
- console.log(obj);
+//  console.log(obj);
 
 
+//  let arr=[1,2,3,4,5,6,7,8,9,10];
+//  let results=[];
+
+ function split(arr,N){
+    let results=[];
+    while(arr.length){
+        results.push(arr.splice(0,N));
+    }
+    return results;
+ }
+
+var ans = split([1,2,3,4,5,6,7,8,9,10],3);
+console.log(ans);
  
